@@ -76,7 +76,7 @@ function App() {
       <div className="bg-white/80 backdrop-blur-md shadow-2xl rounded-3xl p-10 w-full max-w-md transition-transform duration-300 hover:scale-[1.01]">
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold text-blue-800">📘 Profil Mahasiswa</h1>
-          <p className="text-blue-600 mt-2 text-sm">Data diambil langsung dari API lokal</p>
+          <p className="text-blue-600 mt-2 text-sm">Web Programming STMIK Widya Utama</p>
         </div>
 
        <div className="space-y-5">
