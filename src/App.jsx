@@ -79,26 +79,16 @@ function App() {
           <p className="text-blue-600 mt-2 text-sm">Data diambil langsung dari API lokal</p>
         </div>
 
-        {loading ? (
-          <div className="text-center text-gray-500 animate-pulse">
-            Sedang memuat data...
+       <div className="space-y-5">
+          <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-lg flex justify-between items-center">
+            <span className="text-blue-700 font-medium">Nama</span>
+            <span className="font-semibold text-gray-800">Amal Subekti</span>
           </div>
-        ) : profile ? (
-          <div className="space-y-5">
-            <div className="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-lg flex justify-between items-center">
-              <span className="text-blue-700 font-medium">Nama</span>
-              <span className="font-semibold text-gray-800">{profile.name}</span>
-            </div>
-            <div className="bg-green-50 border-l-4 border-green-400 p-4 rounded-lg flex justify-between items-center">
-              <span className="text-green-700 font-medium">NIM</span>
-              <span className="font-semibold text-gray-800">{profile.nim}</span>
-            </div>
+          <div className="bg-green-50 border-l-4 border-green-400 p-4 rounded-lg flex justify-between items-center">
+            <span className="text-green-700 font-medium">NIM</span>
+            <span className="font-semibold text-gray-800">STI202202787</span>
           </div>
-        ) : (
-          <div className="text-center text-red-600 font-semibold">
-            Gagal mengambil data 😢
-          </div>
-        )}
+        </div>
       </div>
     </div>
   );
